@@ -1,7 +1,16 @@
+/* **************
+    =body
+    ***********
+    */
 body{
-  background-color: #E7DEDC;
+  background-color: #F6F4F4;
   font-family: sans-serif;
 }
+
+/* ************
+    =container_24
+    ***********
+    */
 .container_24{
   margin-top: 10px;
 }
@@ -19,9 +28,13 @@ body{
   font-family: sans-serif;
 }
 
+/* ************
+    =main
+    **********
+    */
 .main{
   margin-top: 20px;
-  color: #353535;
+  color: #999565;
 
 }
 p{
@@ -109,8 +122,7 @@ h2{
   */
 nav ul li{
   display: inline;
-
-
+  text-transform: capitalize;
 }
 nav ul{
   float: right;
@@ -121,7 +133,7 @@ a {
   text-decoration: none;
   color: #7e7e7e;
 }
-a:hover {
+nav a:hover {
   color: black;
 }
 .selected{
@@ -165,5 +177,77 @@ a:hover {
   float: left;
 }
 .what_can_you_do{
-  
+  padding-top: 253px;
+}
+
+.what_can_you_do img{
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.inspireMe{
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* **********************
+      FOOTER
+
+    *********************/
+    footer{
+      clear: both;
+      border-top: 1px solid black;
+      padding-top: 10px;
+      margin-top: 100px;
+      background-color: black;
+    }
+    .foot{
+      width: 960px;
+      background-color: black;
+      color: white;
+      height: 250px;
+      margin-top: 10px;
+    }
+    .foot .grid_2{
+      padding-top: 180px;
+    }
+
+footer a:hover{
+  text-decoration:underline;
+}
+
+footer ul{
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+footer .f_three a:hover{
+    border: 1px solid red;
+}
+
+footer ul li img{
+  padding-bottom: 5px;
+}
+.f_one{
+  margin-left: 100px;
+  width: 130px;
+
+}
+.f_two{
+  padding-left: 50px;
+  margin: auto;
+}
+.f_three{
+  float: right;
+}
+
+.copyrights{
+  /*width: 960px;
+  height: 25px;*/
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding-left:480px;
+
 }
