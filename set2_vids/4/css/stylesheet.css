@@ -1,0 +1,18 @@
+body{
+  height: 200px;
+}
+
+h1{
+  letter-spacing: 12px;
+  font-family:sans-serif;
+  font-size: 100px;
+  background: url(../images/download.png) no-repeat;
+  height: 113px;
+  width: 800px;
+  text-indent: 200px;
+  color :#666;
+  text-transform: uppercase;
+  text-shadow: 5px 10px 10px red,
+              -3px 5px 7px yellow;
+  font variant: sm; 
+}

@@ -1,0 +1,19 @@
+.container_12{
+  background: brown;
+}
+
+nav li{
+  display:inline;
+}
+
+aside{
+  background: green;
+}
+
+.primary{
+  background: #666;
+}
+
+header{
+  background: yellow;
+}
