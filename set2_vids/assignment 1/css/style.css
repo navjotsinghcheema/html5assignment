@@ -11,7 +11,7 @@ body{
     =container_24
     ***********
     */
-.container_24{
+.container_24,.container_12{
   margin-top: 10px;
 }
 /* *************
@@ -35,7 +35,6 @@ body{
 .main{
   margin-top: 20px;
   color: #999565;
-
 }
 p{
   line-height: 20px;
@@ -101,6 +100,9 @@ h2{
   margin-left: 5px;
 }
 
+.grid_4 li{
+  list-style: none;
+}
 .quote_line1{
   /*color: Black;*/
   margin-top: 20px;
@@ -115,6 +117,21 @@ h2{
 .quote_line3 li{
   text-decoration:none;
 }
+
+.file2 a img{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.file2 h2{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.file2 p{
+  text-align: center;
+}
+
 
 /* *************
   =NAV
@@ -153,9 +170,12 @@ nav a:hover {
   color: white;
 }
 
-/* *********************************8
+
+
+/* *********************************
       2ND set of data
       ****************************/
+
 .grid_15{
   float: right;
 }
@@ -187,6 +207,7 @@ nav a:hover {
 
 .inspireMe{
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
   text-decoration: none;
 }
@@ -203,14 +224,10 @@ nav a:hover {
       background-color: black;
     }
     .foot{
-      width: 960px;
       background-color: black;
       color: white;
-      height: 250px;
+      height: 290px;
       margin-top: 10px;
-    }
-    .foot .grid_2{
-      padding-top: 180px;
     }
 
 footer a:hover{
@@ -222,32 +239,17 @@ footer ul{
   margin-top: 10px;
 }
 
-footer .f_three a:hover{
-    border: 1px solid red;
+footer .social li{
+    display: inline;
 }
+footer .social li img {
 
-footer ul li img{
-  padding-bottom: 5px;
-}
-.f_one{
-  margin-left: 100px;
-  width: 130px;
-
-}
-.f_two{
-  padding-left: 50px;
-  margin: auto;
-}
-.f_three{
-  float: right;
+  border-radius: 15px;
 }
 
 .copyrights{
-  /*width: 960px;
-  height: 25px;*/
-  margin-top: 10px;
+  margin-top: 20px;
   background-color: black;
   color: white;
-  padding-left:480px;
-
+  text-align: center;
 }
