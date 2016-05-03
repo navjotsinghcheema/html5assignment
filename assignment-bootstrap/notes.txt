@@ -1,0 +1,62 @@
+<!----Bootstrap classes---->
+
+container ---- rapers the website in the middle of the page in browser and cuts off the edges
+	>container for fixed width
+	>container-fluid for full width
+
+
+navbar ---- styles the navbar according to the pre styled features in bootstrap
+
+navbar-fixed-top ---- sticks the navbar to the top
+
+**navbar and navbar-fixed-top together help the navbar behave as a seperate element which stays on the top and is not constrained by standard 960px, even if it is placed in the 960 grid container**
+
+carousel ---- gives the elements carousel styling
+
+slide
+
+row
+
+navbar-brand ---- restructures the logo images as it should on a webpage....highlighted and on the left 	           top 
+nav-collapse ---- makes navbar responsive...shrinks and expands on increasing/decreasing the page
+collapse ---- 
+navbar-responsive-collapse ----
+nav
+navbar-nav
+active
+navbar-form
+form-control
+
+btn
+btn-control
+
+glyphicon
+glyphicon-search
+glyphicon-user
+
+pull-left ---- add css styling of float left
+pull-right ---- add css styling of float right
+
+dropdown
+dropdown-toggle
+dropdown-menu
+dropdown-header
+caret
+divider
+
+carousel-inner
+carousel-indicators
+carousel-caption
+carousel-control
+data-slide-to
+item
+icon-prev
+
+MISCELLANEOUS
+
+** "/" in href means go back to the main page **
+
+
+
+
+

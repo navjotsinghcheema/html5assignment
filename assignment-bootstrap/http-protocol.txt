@@ -1,0 +1,43 @@
+HTTP protocol
+
+
+http: hyper text transfer protocol
+
+http is a stateless protocol
+
+http methods:
+get
+post
+put
+patch
+delete
+trace
+connect
+options
+
+
+304-->not modified-->no change in file so doesnt get downloaded
+200-->new data in the particular file as compaired to the previous file so the browser has downloaded that
+404-->not found
+700-->
+when we click on a link
+get->
+
+
+find 10 common http status codes
+
+
+**Parameters/Corey strings**
+http://www.some_domain_name/path/?
+  1	2		      3    4
+
+1-->protocol
+2-->domain name
+3-->path
+4-->search element
+
+DNS: Domain Name Service
+dns resolution->ip->hosting space->reaches ip add->connection->request->recieving 
+
+
+check responsiveness
